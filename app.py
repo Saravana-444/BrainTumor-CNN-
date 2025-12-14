@@ -19,7 +19,7 @@ st.write("Upload a brain MRI image to detect tumor presence.")
 # Google Drive model download
 # -----------------------------
 MODEL_PATH = "BRAINTUMOR.h5"
-DRIVE_URL = "https://drive.google.com/uc?id=1ALXsWSNXUsrBDXA5v24McLRPu0ZHLuQ"
+DRIVE_URL = "https://drive.google.com/uc?id=1ALXsWSNXUsrBDXA5v24McLRPu0ZHLuQm"
 
 @st.cache_resource
 def load_cnn_model():
